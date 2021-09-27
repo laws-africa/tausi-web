@@ -16,7 +16,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/tausi-web/dist/css/tausi-web.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/tausi-web@1.0.0/dist/css/tausi-web.min.css">
 
 ### From your server
 
@@ -48,6 +48,7 @@ To build changes:
 ## Release process
 
 * update version in `package.json`
+* update version in URL above
 * update Version History (below)
 * build as above
 * tag release: `git tag vX.X.X`
