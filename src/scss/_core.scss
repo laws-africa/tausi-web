@@ -1,0 +1,140 @@
+.akoma-ntoso {
+  // typography
+  font-family: $akn-font-family;
+  font-size: $akn-font-size;
+  line-height: $akn-line-height;
+
+  // headings
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  .akn-heading {
+    margin-top: 0px;
+    margin-bottom: $akn-para-spacing;
+
+    font-family: $akn-font-family;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: ceil($akn-font-size * 1.7); // ~ 24px
+    line-height: 1.2;
+  }
+
+  h2,
+  .akn-heading {
+    text-align: center;
+    font-size: ceil($akn-font-size * 1.25); // ~ 18px
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: ceil($akn-font-size * 1.14); // ~ 16px
+    line-height: $akn-line-height;
+  }
+
+  h4 {
+    font-size: $akn-font-size;
+    line-height: $akn-line-height;
+  }
+
+  .akn-br {
+    display: block;
+  }
+
+  .akn-subheading,
+  .akn-crossHeading {
+    text-align: center;
+    font-style: italic;
+  }
+
+  // hier elements such as part and chapter
+  @each $el in $akn-hier-elements {
+    .akn-#{$el} {
+      display: block;
+      margin-bottom: $akn-section-spacing;
+    }
+  }
+
+  // block elements such as coverPage
+  @each $el in $akn-block-elements {
+    .akn-#{$el} {
+      display: block;
+    }
+  }
+
+  // content elements such as p
+  @each $el in $akn-content-elements {
+    .akn-#{$el} {
+      display: block;
+      margin-bottom: $akn-para-spacing;
+    }
+  }
+
+  // justify all 'body' text in the main judgment and attachments
+  .akn-judgmentBody, .akn-attachments {
+    .akn-p {
+      text-align: justify;
+    }
+  }
+
+  // Indent list-like containers that have numbers.
+  // For the exception where these are not numbered, .akn--no-indent is applied to override the indent.
+  .akn-paragraph,
+  .akn-subparagraph,
+  .akn-subsection {
+    padding-left: $akn-para-indent;
+    margin-bottom: $akn-para-spacing;
+
+    &.akn--no-indent {
+      padding-left: 0px;
+    }
+
+    &> .akn-num {
+      display: block;
+      float: left;
+      margin-left: -$akn-para-indent;
+      margin-right: 0.25em;
+    }
+  }
+
+  .akn-embeddedStructure {
+    margin-left: $akn-quote-indent;
+
+    .akn-embeddedStructure--startQuote {
+      margin-left: -0.5em;
+      float: left;
+    }
+  }
+
+  // blocklists
+  .akn-blockList {
+    &> .akn-item {
+      display: block;
+      margin-left: $akn-para-indent;
+      margin-bottom: $akn-para-spacing;
+
+      > .akn-num {
+        display: block;
+        float: left;
+        margin-left: -$akn-para-indent;
+        margin-right: 0.25em;
+      }
+    }
+  }
+
+  // footnotes
+  .akn-authorialNote {
+    display: flex;
+    font-size: small;
+    margin-top: 0.5em;
+
+    > .akn-authorialNote--marker {
+      font-size: 70%;
+      vertical-align: super;
+      margin-right: 0.5em;
+    }
+  }
+}

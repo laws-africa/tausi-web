@@ -1,0 +1,23 @@
+.akoma-ntoso {
+  // inline and marker elements
+
+  .akn-remark,
+  .akn-ref,
+  .akn-term {
+    font-style: italic;
+  }
+
+  abbr[title] {
+    text-decoration: none !important;
+    cursor: default;
+  }
+
+  em {
+    font-style: normal;
+    text-decoration: underline;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}

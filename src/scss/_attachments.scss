@@ -1,0 +1,8 @@
+.akoma-ntoso {
+  // Attachments
+
+  .akn-attachment > .akn-subheading {
+    // don't italicise sub-headings for attachments
+    font-style: normal;
+  }
+}

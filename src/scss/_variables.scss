@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i');
+
+// font family
+$akn-font-family-serif: Palatino, "Book Antiqua", "PT Serif", Georgia, serif !default; // http://www.cssfontstack.com/Palatino
+$akn-font-family-sans: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$akn-font-family: $akn-font-family-serif !default;
+$akn-font-size: 15px !default;
+
+$akn-line-height: 1.35 !default;       // see http://practicaltypography.com/line-spacing.html
+$akn-para-indent: 3em !default;
+$akn-para-spacing: 0.8em !default;     // see http://practicaltypography.com/space-between-paragraphs.html
+$akn-section-spacing: 1.6em !default;  // generally 2 * $para-spacing
+$akn-quote-indent: 2em !default;
+
+$akn-table-border-colour: #ddd !default;
+$akn-table-border-width: 0 !default;
+
+// AKN elements
+
+// Hierarchical elements
+$akn-hier-elements: alinea, article, book, chapter, clause, division, hcontainer, indent, level, list, paragraph, part,
+point, proviso, rule, section, subchapter, subclause, subdivision, sublist, subparagraph, subpart, subrule, subsection,
+subtitle, title, tome, transitional;
+
+// Block elements
+$akn-block-elements: akomaNtoso arguments background blockList conclusions coverPage crossHeading decision
+embeddedStructure header introduction list preamble preface remedies motivation;
+
+// Content elements
+$akn-content-elements: p listIntroduction heading subheading;

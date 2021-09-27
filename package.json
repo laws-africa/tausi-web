@@ -1,0 +1,22 @@
+{
+  "name": "tausi-web",
+  "version": "1.0.0",
+  "description": "Web assets for Tausi",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/scss/tausi-web.scss:dist/css/tausi-web.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laws-africa/tausi-web.git"
+  },
+  "author": "Laws.Africa",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/laws-africa/tausi-web/issues"
+  },
+  "homepage": "https://github.com/laws-africa/tausi-web#readme",
+  "devDependencies": {
+    "sass": "^1.42.1"
+  }
+}

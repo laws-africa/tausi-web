@@ -1,0 +1,21 @@
+.akoma-ntoso {
+  ul, ol {
+    display: block;
+    list-style-position: outside;
+    padding-left: $akn-para-indent;
+    margin-bottom: $akn-para-spacing;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  ol {
+    list-style-type: arabic;
+  }
+
+  li {
+    display: list-item;
+    margin-bottom: $akn-para-spacing;
+  }
+}
