@@ -20,8 +20,13 @@
     font-weight: bold;
     text-align: center;
 
-    .doc-title, .doc-date, .neutral-citation, .judges, .docket-number {
+    .doc-title, .neutral-citation {
       margin-bottom: $akn-para-spacing;
+    }
+
+    .doc-date, .judges, .docket-number {
+      margin-bottom: $akn-para-spacing;
+      text-transform: uppercase;
     }
 
     .legacy-citation {
@@ -36,7 +41,13 @@
       text-transform: uppercase;
     }
 
-    .doc-authority, .parties-separator {
+    .doc-authority {
+      margin-top: $akn-section-spacing;
+      margin-bottom: $akn-para-spacing;
+      text-transform: uppercase;
+    }
+
+    .parties-separator {
       margin-top: $akn-section-spacing;
       margin-bottom: $akn-para-spacing;
     }
