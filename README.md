@@ -56,6 +56,10 @@ To build changes:
 
 # Version history
 
+## 1.0.1 (28 September 2021)
+
+* Uppercase doc-date, judges, docket-number, and doc-authority in the header (in addition to republic-head and decision-action)
+
 ## 1.0.0 (27 September 2021)
 
 * Initial release
