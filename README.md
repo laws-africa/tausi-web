@@ -16,7 +16,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/tausi-web@1.0.2/dist/css/tausi-web.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/tausi-web@1.0.3/dist/css/tausi-web.min.css">
 
 ### From your server
 
@@ -57,6 +57,10 @@ To build changes:
 * push to GitHub: `git push; git push origin --tags`
 
 # Version history
+
+## 1.0.3 (30 September 2021)
+
+* Division and paragraph headings: left-align, reduce font size and line height
 
 ## 1.0.2 (29 September 2021)
 
