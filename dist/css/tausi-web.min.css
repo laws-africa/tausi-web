@@ -290,8 +290,12 @@
   font-weight: bold;
   text-align: center;
 }
-.akoma-ntoso .tausi-header .doc-title, .akoma-ntoso .tausi-header .doc-date, .akoma-ntoso .tausi-header .neutral-citation, .akoma-ntoso .tausi-header .judges, .akoma-ntoso .tausi-header .docket-number {
+.akoma-ntoso .tausi-header .doc-title, .akoma-ntoso .tausi-header .neutral-citation {
   margin-bottom: 0.8em;
+}
+.akoma-ntoso .tausi-header .doc-date, .akoma-ntoso .tausi-header .judges, .akoma-ntoso .tausi-header .docket-number {
+  margin-bottom: 0.8em;
+  text-transform: uppercase;
 }
 .akoma-ntoso .tausi-header .legacy-citation {
   margin-bottom: 0.8em;
@@ -303,7 +307,12 @@
   margin-bottom: 0.8em;
   text-transform: uppercase;
 }
-.akoma-ntoso .tausi-header .doc-authority, .akoma-ntoso .tausi-header .parties-separator {
+.akoma-ntoso .tausi-header .doc-authority {
+  margin-top: 1.6em;
+  margin-bottom: 0.8em;
+  text-transform: uppercase;
+}
+.akoma-ntoso .tausi-header .parties-separator {
   margin-top: 1.6em;
   margin-bottom: 0.8em;
 }
