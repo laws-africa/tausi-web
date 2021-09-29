@@ -16,7 +16,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/tausi-web@1.0.0/dist/css/tausi-web.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/tausi-web@1.0.2/dist/css/tausi-web.min.css">
 
 ### From your server
 
@@ -37,24 +37,30 @@ Or use the SCSS files:
 You can override variables when using SCSS by copying them from ``_variables.scss`` into ``_custom.scss`` and changing
 their values.
 
-## Building
+## Building and releasing
+
+### Building
 
 To build changes:
 
 * npm install
-* npm run-scripts build
+* npm run-script build
 * git add dist/*
 
-## Release process
+### Release process
 
 * update version in `package.json`
-* update version in URL above
-* update Version History (below)
-* build as above
+* update version in URL [above](#from-cdn)
+* update version history [below](#version-history)
+* build as [above](#building)
 * tag release: `git tag vX.X.X`
 * push to GitHub: `git push; git push origin --tags`
 
 # Version history
+
+## 1.0.2 (29 September 2021)
+
+* Include changes from previous release in distribution
 
 ## 1.0.1 (28 September 2021)
 
