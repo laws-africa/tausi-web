@@ -24,7 +24,7 @@
       margin-bottom: $akn-para-spacing;
     }
 
-    .doc-date, .judges, .docket-number {
+    .doc-date, .judges, .docket-number, .extra-text {
       margin-bottom: $akn-para-spacing;
       text-transform: uppercase;
     }
@@ -50,10 +50,12 @@
     .parties-separator {
       margin-top: $akn-section-spacing;
       margin-bottom: $akn-para-spacing;
+      text-transform: uppercase;
     }
 
     .party-listing {
       margin-bottom: $akn-para-spacing;
+      text-transform: uppercase;
       display: flex;
       align-content: flex-end;
 
