@@ -58,9 +58,11 @@ To build changes:
 
 # Version history
 
-## 1.0.3 (30 September 2021)
+## 1.0.3 (7 October 2021)
 
 * Division and paragraph headings: left-align, reduce font size and line height
+* Uppercase extra header text, parties listing
+* Match space below republic head to rest of block (remove extra space above authority)
 
 ## 1.0.2 (29 September 2021)
 
