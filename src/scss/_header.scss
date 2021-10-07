@@ -24,7 +24,7 @@
       margin-bottom: $akn-para-spacing;
     }
 
-    .doc-date, .judges, .docket-number {
+    .doc-date, .judges, .docket-number, .extra-text, .doc-authority {
       margin-bottom: $akn-para-spacing;
       text-transform: uppercase;
     }
@@ -35,25 +35,15 @@
       font-style: italic;
     }
 
-    .republic-head {
+    .republic-head, .parties-separator {
       margin-top: $akn-section-spacing;
       margin-bottom: $akn-para-spacing;
       text-transform: uppercase;
-    }
-
-    .doc-authority {
-      margin-top: $akn-section-spacing;
-      margin-bottom: $akn-para-spacing;
-      text-transform: uppercase;
-    }
-
-    .parties-separator {
-      margin-top: $akn-section-spacing;
-      margin-bottom: $akn-para-spacing;
     }
 
     .party-listing {
       margin-bottom: $akn-para-spacing;
+      text-transform: uppercase;
       display: flex;
       align-content: flex-end;
 
@@ -79,11 +69,7 @@
   .summary {
     text-align: justify;
 
-    .summary-title {
-      margin-bottom: $akn-para-spacing;
-    }
-
-    .author {
+    .summary-title, .author {
       margin-bottom: $akn-para-spacing;
     }
 

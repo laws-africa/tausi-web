@@ -50,6 +50,15 @@
     font-style: italic;
   }
 
+  .akn-division,
+  .akn-paragraph {
+    .akn-heading {
+      text-align: start;
+      font-size: $akn-font-size;
+      line-height: $akn-line-height;
+    }
+  }
+
   // hier elements such as part and chapter
   @each $el in $akn-hier-elements {
     .akn-#{$el} {

@@ -45,6 +45,12 @@
   text-align: center;
   font-style: italic;
 }
+.akoma-ntoso .akn-division .akn-heading,
+.akoma-ntoso .akn-paragraph .akn-heading {
+  text-align: start;
+  font-size: 15px;
+  line-height: 1.35;
+}
 .akoma-ntoso .akn-alinea {
   display: block;
   margin-bottom: 1.6em;
@@ -293,7 +299,7 @@
 .akoma-ntoso .tausi-header .doc-title, .akoma-ntoso .tausi-header .neutral-citation {
   margin-bottom: 0.8em;
 }
-.akoma-ntoso .tausi-header .doc-date, .akoma-ntoso .tausi-header .judges, .akoma-ntoso .tausi-header .docket-number {
+.akoma-ntoso .tausi-header .doc-date, .akoma-ntoso .tausi-header .judges, .akoma-ntoso .tausi-header .docket-number, .akoma-ntoso .tausi-header .extra-text, .akoma-ntoso .tausi-header .doc-authority {
   margin-bottom: 0.8em;
   text-transform: uppercase;
 }
@@ -302,22 +308,14 @@
   font-weight: normal;
   font-style: italic;
 }
-.akoma-ntoso .tausi-header .republic-head {
+.akoma-ntoso .tausi-header .republic-head, .akoma-ntoso .tausi-header .parties-separator {
   margin-top: 1.6em;
   margin-bottom: 0.8em;
   text-transform: uppercase;
-}
-.akoma-ntoso .tausi-header .doc-authority {
-  margin-top: 1.6em;
-  margin-bottom: 0.8em;
-  text-transform: uppercase;
-}
-.akoma-ntoso .tausi-header .parties-separator {
-  margin-top: 1.6em;
-  margin-bottom: 0.8em;
 }
 .akoma-ntoso .tausi-header .party-listing {
   margin-bottom: 0.8em;
+  text-transform: uppercase;
   display: flex;
   align-content: flex-end;
 }
@@ -338,10 +336,7 @@
 .akoma-ntoso .summary {
   text-align: justify;
 }
-.akoma-ntoso .summary .summary-title {
-  margin-bottom: 0.8em;
-}
-.akoma-ntoso .summary .author {
+.akoma-ntoso .summary .summary-title, .akoma-ntoso .summary .author {
   margin-bottom: 0.8em;
 }
 .akoma-ntoso .summary .catchwords, .akoma-ntoso .summary .outcome {
