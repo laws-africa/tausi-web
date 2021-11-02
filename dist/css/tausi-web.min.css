@@ -271,11 +271,26 @@
   display: flex;
   font-size: small;
   margin-top: 0.5em;
+  padding: 0.25em 0.25em 0 0.25em;
+  position: relative;
+  background-color: #efefef;
+}
+.akoma-ntoso .akn-authorialNote::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 1px solid black;
+  width: 15%;
 }
 .akoma-ntoso .akn-authorialNote > .akn-authorialNote--marker {
-  font-size: 70%;
-  vertical-align: super;
   margin-right: 0.5em;
+}
+.akoma-ntoso .akn-authorialNote + .akn-authorialNote {
+  margin-top: 0px;
+}
+.akoma-ntoso .akn-authorialNote + .akn-authorialNote::before {
+  border-top: 0px;
 }
 
 .akoma-ntoso .akn-header {
